@@ -5,10 +5,10 @@ import java.util.*;
 
 public class Main {
     public enum Suit{
-        CLUBS("\u2663"),
-        DIAMONDS("\u2666"),
-        HEARTS("\u2665"),
-        SPADES("\u2660");
+        CLUBS("\u2663"), //sinek
+        DIAMONDS("\u2666"), //Karo
+        HEARTS("\u2665"), //Kupa
+        SPADES("\u2660"); //Maça
         private String symbol;
         private Suit(String symbol) {
             this.symbol = symbol;
